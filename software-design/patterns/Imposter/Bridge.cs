@@ -29,6 +29,7 @@ namespace Bridge
     public RelationalDocumentQueryable (GroovyQuery adapter)
     {
       this._adapter = adapter;
+      //haha
     }
 
     public IList<T> Fetch<T> ()
